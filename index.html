@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hockeys</title>
+    <!-- daisyUI CSS file + Tailwind CSS CDN script: -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- font awesome -->
+    <script
+      src="https://kit.fontawesome.com/5963c91824.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap");
+    .manrope-font {
+      font-family: "Manrope", sans-serif;
+    }
+
+    :root {
+      --primary-color: #ff4240;
+    }
+  </style>
+
+  <body class="manrope-font">
+    <!-- header start -->
+    <header class="container mx-auto px-8 lg:px-24">
+      <!-- navbar start -->
+      <nav>
+        <div class="navbar bg-base-100">
+          <div class="navbar-start">
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h8m-8 6h16"
+                  />
+                </svg>
+              </div>
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+              >
+                <li><a>Home</a></li>
+                <li><a>About</a></li>
+                <li><a>Pages</a></li>
+                <li><a>Blog</a></li>
+                <li><a>Contact</a></li>
+              </ul>
+            </div>
+            <a class="text-[#131318] text-2xl font-extrabold lg:text-4xl"
+              >Hockey<span class="text-[#FF4240]">’</span>s</a
+            >
+          </div>
+          <div class="navbar-center hidden lg:flex content-center">
+            <ul class="menu menu-horizontal px-1">
+              <li class="text-[--primary-color] text-lg font-bold">
+                <a>Home</a>
+              </li>
+              <li class="text-[#424247] text-base font-normal"><a>About</a></li>
+              <li class="text-[#424247] text-base font-normal"><a>Pages</a></li>
+              <li class="text-[#424247] text-base font-normal"><a>Blog</a></li>
+              <li class="text-[#424247] text-base font-normal">
+                <a>Contact</a>
+              </li>
+            </ul>
+          </div>
+          <div class="navbar-end flex gap-5 content-center">
+            <i
+              class="fa-solid fa-magnifying-glass text-[#89898B] hidden lg:flex"
+            ></i>
+            <a
+              class="btn bg-[--primary-color] text-[#FFF] text-base font-bold text-center"
+              >Get Ticket</a
+            >
+          </div>
+        </div>
+      </nav>
+      <!-- navbar end -->
+
+      <!-- banner section start-->
+      <section class="p-2 lg:mt-5 relative">
+        <div class="carousel w-full">
+          <div
+            id="slide1"
+            class="carousel-item relative w-full bg-gradient-to-r from-slate-950 to-slate-900 rounded-2xl"
+          >
+            <img src="Images/1.png" class="w-full bg-cover" />
+
+            <div
+              class="absolute transform -translate-y-1/2 lg:left-5 bottom-0 left-[35%]"
+            >
+              <a
+                href="#slide4"
+                class="btn btn-circle bg-[#131318] text-[#FFFFFF] border-none W-10"
+                >❮</a
+              >
+              <a
+                href="#slide2"
+                class="btn btn-circle bg-[#131318] text-[#FFFFFF] border-none W-10"
+                >❯</a
+              >
+            </div>
+          </div>
+        </div>
+        <div
+          class="card bg-[#131318] lg:w-[48%] text-neutral-content lg:absolute lg:bottom-10 lg:left-[50%]"
+        >
+          <div class="card-body">
+            <h2 class="card-title font-extrabold text-2xl text-[#FFF]">
+              Meet all the heroes from the field
+            </h2>
+            <p class="font-medium text-base text-[#FFFFFF99]">
+              Dit amet consectetur. Condimentum dignissim adipiscing aliquam
+              turpis placerat dolor. Purus urna in sit nullam.
+            </p>
+            <div class="card-actions justify-end"></div>
+          </div>
+        </div>
+      </section>
+      <!-- banner section end-->
+    </header>
+    <!-- header end -->
+    <main class="container mx-auto my-14 px-8 lg:px-24">
+      <div class="border border-1 border-dashed"></div>
+      <h3 class="text-[#131318] text-2xl font-extrabold text-center mt-8">
+        Professional Hockeys Club
+      </h3>
+      <p class="text-center mt-6 text-slate-500">
+        Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis
+        placerat <br />
+        dolor. Purus urna in sit nullam proin.
+      </p>
+      <div class="border border-1 border-dashed mt-8"></div>
+      <!-- progress bar  -->
+      <div class="mt-8 mx-auto flex flex-col gap-8 px-8 lg:flex-row lg:gap-4">
+        <div class="flex flex-col gap-6 items-center">
+          <div
+            class="radial-progress text-[#FF4240] font-extrabold"
+            style="--value: 87"
+            role="progressbar"
+          >
+            <span class="text-black"> 87%</span>
+          </div>
+          <h4 class="font-bold">Player Facility</h4>
+          <p class="text-slate-500 text-center">
+            Amet consectetur. Condimentum dignissim adipiscing .
+          </p>
+        </div>
+        <div class="flex flex-col gap-6 items-center">
+          <div
+            class="radial-progress text-[#49D293] font-extrabold"
+            style="--value: 95"
+            role="progressbar"
+          >
+            <span class="text-black"> 95%</span>
+          </div>
+          <h4 class="font-bold">Experienced Coach</h4>
+          <p class="text-slate-500 text-center">
+            Amet consectetur. Condimentum dignissim adipiscing .
+          </p>
+        </div>
+        <div class="flex flex-col gap-6 items-center">
+          <div
+            class="radial-progress text-[#FFB546] font-extrabold"
+            style="--value: 90"
+            role="progressbar"
+          >
+            <span class="text-black"> 90%</span>
+          </div>
+          <h4 class="font-bold">Senior Player</h4>
+          <p class="text-slate-500 text-center">
+            Amet consectetur. Condimentum dignissim adipiscing .
+          </p>
+        </div>
+        <div class="flex flex-col gap-6 items-center">
+          <div
+            class="radial-progress text-[#4C8DF1] font-extrabold"
+            style="--value: 80"
+            role="progressbar"
+          >
+            <span class="text-black"> 80%</span>
+          </div>
+          <h4 class="font-bold">Training Ground</h4>
+          <p class="text-slate-500 text-center">
+            Amet consectetur. Condimentum dignissim adipiscing .
+          </p>
+        </div>
+      </div>
+      <div class="border border-1 border-dashed mt-8"></div>
+      <h3 class="text-[#131318] text-2xl font-extrabold text-center mt-8">
+        Program Sections
+      </h3>
+      <p class="text-center mt-6 text-slate-500">
+        Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis
+        placerat dolor. Purus urna in sit nullam proin.
+      </p>
+      <!-- progress bar finished  -->
+      <div class="border border-1 border-dashed mt-8"></div>
+      <div class="grid gap-6 lg:grid-rows-2 lg:grid-cols-2">
+        <div class="bg-[url('Images/2.png')] bg-cover h-80 rounded-xl"></div>
+        <div class="bg-[url('Images/3.png')] bg-cover h-80 rounded-xl"></div>
+        <div
+          class="bg-[url('Images/4.png')] bg-cover h-80 rounded-xl col-span-2"
+        ></div>
+      </div>
+    </main>
+
+    <footer></footer>
+  </body>
+</html>
