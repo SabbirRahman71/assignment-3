@@ -222,54 +222,91 @@
       </p>
       <!-- progress bar finished  -->
       <div class="border border-1 border-dashed mt-8"></div>
-      <div class="flex flex-col lg:grid gap-6 lg:grid-rows-2 lg:grid-cols-2">
-        <div class="bg-[url('Images/2.png')] bg-cover h-80 rounded-xl">
-          <h3 class="text-white text-2xl font-extrabold mt-10 lg:24 ml-6">
-            Junior Program
-          </h3>
-          <p class="ml-6 my-4 text-[#FFF] w-[80%]">
-            Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
-            enim sagittis turpis in magna. Id et sed euismod natoque amet nunc
-            morbi nulla. Tortor congue sed et in.
-          </p>
-          <button class="bg-[#FF4240] text-white rounded-md p-3 ml-6">
-            Register Now!
-          </button>
-        </div>
-        <div class="bg-[url('Images/3.png')] bg-cover h-80 rounded-xl">
-          <h3 class="text-white text-2xl font-extrabold mt-10 lg:24 ml-6">
-            Teenager Program
-          </h3>
-          <p class="ml-6 my-4 text-[#FFF] w-[80%]">
-            Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
-            enim sagittis turpis in magna. Id et sed euismod natoque amet nunc
-            morbi nulla. Tortor congue sed et in.
-          </p>
-          <button class="bg-[#FF4240] text-white rounded-md p-3 ml-6">
-            Register Now!
-          </button>
+      <!-- program section starts here  -->
+      <!-- junior & teenager program  -->
+      <div class="grid lg:grid-cols-2 mt-14 gap-4">
+        <div
+          class="rounded-lg bg-no-repeat bg-center bg-cover relative"
+          style="background-image: url('./Images/2.png')"
+        >
+          <div
+            class="hero-overlay rounded-lg bg-opacity-60 min-h-[338px]"
+          ></div>
+
+          <div class="text-neutral-content relative">
+            <div class="max-w-md mt-8 absolute bottom-12 left-12">
+              <h1 class="mb-2 text-white text-2xl font-extrabold">
+                Junior Program
+              </h1>
+              <p class="mb-5">
+                Nurturing young talent with expert coaching, skill-building, and
+                a passion for the game's fundamentals
+              </p>
+              <button
+                class="rounded-lg px-9 py-2 bg-[#FF4240] font-bold text-white"
+              >
+                Register Now!
+              </button>
+            </div>
+          </div>
         </div>
         <div
-          class="bg-[url('Images/4.png')] bg-cover h-80 rounded-xl col-span-2"
+          class="rounded-lg bg-no-repeat bg-center bg-cover relative"
+          style="background-image: url('./Images/3.png')"
         >
-          <h3 class="text-white text-2xl font-extrabold mt-10 lg:24 ml-6">
-            Professional Program
-          </h3>
-          <p class="ml-6 my-4 text-[#FFF] w-[80%] lg:w-[40%]">
-            Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
-            enim sagittis turpis in magna. Id et sed euismod natoque amet nunc
-            morbi nulla. Tortor congue sed et in.
-          </p>
-          <button class="bg-[#FF4240] text-white rounded-md p-3 ml-6">
-            Register Now!
-          </button>
+          <div
+            class="hero-overlay rounded-lg bg-opacity-60 min-h-[338px]"
+          ></div>
+
+          <div class="text-neutral-content relative">
+            <div class="max-w-md mt-8 absolute bottom-12 left-12">
+              <h1 class="mb-2 text-2xl text-white font-extrabold">
+                Teenager Program
+              </h1>
+              <p class="mb-5">
+                Tailored coaching, skill enhancement, and mentorship, empowering
+                young players for success in competitive hockey.
+              </p>
+              <button
+                class="rounded-lg px-9 py-2 bg-[#FF4240] font-bold text-white"
+              >
+                Register Now!
+              </button>
+            </div>
+          </div>
         </div>
       </div>
+      <!-- professional program  -->
+      <div
+        class="rounded-lg bg-no-repeat bg-center bg-cover relative mt-4"
+        style="background-image: url('./Images/4.png')"
+      >
+        <div class="hero-overlay rounded-lg bg-opacity-60 min-h-[338px]"></div>
+
+        <div class="text-neutral-content relative">
+          <div class="max-w-md mt-8 absolute bottom-12 left-12">
+            <h1 class="mb-2 text-2xl text-white font-extrabold">
+              Professional Program
+            </h1>
+            <p class="mb-5">
+              Elite coaching, advanced skill development, strategic training,
+              and personalized support to elevate players to the pinnacle of
+              their careers."
+            </p>
+            <button
+              class="rounded-lg px-9 py-2 bg-[#FF4240] font-bold text-white"
+            >
+              Register Now!
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- program section ends here  -->
       <div class="border border-1 border-dashed mt-16"></div>
       <!-- our new products section starts here -->
       <section>
         <div class="border border-1 border-dashed mt-8"></div>
-        <h2 class="font-extrabold text-2xl lg:text-4xl text-center">
+        <h2 class="font-extrabold text-2xl mt-4 lg:text-4xl text-center">
           Our New Products
         </h2>
         <p class="font-medium text-center lg:pt-6">
@@ -304,7 +341,7 @@
                 </div>
               </div>
               <h2 class="card-title mb-2">Chic Winter Attire</h2>
-              <p class="text-neutral-500 text-[16px]">
+              <p class="text-neutral-500">
                 Dolor sit amet consectetur. Ut urna diam quis sagittis.
               </p>
               <div class="flex items-center justify-between">
@@ -340,7 +377,7 @@
                 </div>
               </div>
               <h2 class="card-title mb-2">Soccer Championship Thrills</h2>
-              <p class="text-neutral-500 text-[16px]">
+              <p class="text-neutral-500">
                 Dolor sit amet consectetur. Ut urna diam quis sagittis.
               </p>
               <div class="flex items-center justify-between">
@@ -376,7 +413,7 @@
                 </div>
               </div>
               <h2 class="card-title mb-2">Stylish Winter Headwear.</h2>
-              <p class="text-neutral-500 text-[16px]">
+              <p class="text-neutral-500">
                 Classic design, warmth, and comfort in this stylish hat.
               </p>
               <div class="flex items-center justify-between">
@@ -412,7 +449,7 @@
                 </div>
               </div>
               <h2 class="card-title mb-2">Casual Tee Elegance</h2>
-              <p class="text-neutral-500 text-[16px]">
+              <p class="text-neutral-500">
                 Comfortable, versatile, and effortlessly stylish everyday
                 essential tee
               </p>
@@ -451,7 +488,7 @@
               <h2 class="card-title mb-2">
                 Protective helmet for safety and confident adventures.
               </h2>
-              <p class="text-neutral-500 text-[16px]">
+              <p class="text-neutral-500">
                 Precision, teamwork, and excitement define this thrilling sport.
               </p>
               <div class="flex items-center justify-between">
@@ -487,7 +524,7 @@
                 </div>
               </div>
               <h2 class="card-title mb-2">The Thrill of Football</h2>
-              <p class="text-neutral-500 text-[16px]">
+              <p class="text-neutral-500">
                 Unleash the passion on the field with teamwork, and exhilarating
                 moments in football.
               </p>
@@ -503,6 +540,91 @@
         </div>
       </section>
       <!-- our new products section ends here  -->
+      <!-- clients question section starts here -->
+      <section class="mt-14">
+        <div class="max-w-xl mx-auto text-center">
+          <div class="border border-1 border-dashed mb-6 mt-8"></div>
+          <h1 class="text-3xl mb-2 font-extrabold">Clients Question</h1>
+          <p class="text-neutral-500 leading-7">
+            Dit amet consectetur. Condimentum dignissim adipiscing aliquam
+            turpis placerat dolor. Purus urna in sit nullam proin.
+          </p>
+        </div>
+        <div class="border border-1 border-dashed mt-8"></div>
+        <div class="grid grid-cols-1 lg:grid-cols-2 items-start gap-6 mt-14">
+          <div>
+            <img src="./Images/11.png" class="" alt="" />
+          </div>
+          <div class="flex flex-col gap-2">
+            <div class="collapse collapse-plus border border-spacing-1">
+              <input type="radio" name="my-accordion-3" checked="checked" />
+              <div class="collapse-title text-xl font-medium">
+                Hockey Training
+              </div>
+              <div class="collapse-content">
+                <p>
+                  Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit
+                  elit enim sagittis turpis in magna.
+                </p>
+              </div>
+            </div>
+            <div class="collapse collapse-plus border border-spacing-1">
+              <input type="radio" name="my-accordion-3" />
+              <div class="collapse-title text-xl font-medium">
+                Private Lessons
+              </div>
+              <div class="collapse-content">
+                <p>
+                  Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit
+                  elit enim sagittis turpis in magna.
+                </p>
+              </div>
+            </div>
+            <div class="collapse collapse-plus border border-spacing-1">
+              <input type="radio" name="my-accordion-3" />
+              <div class="collapse-title text-xl font-medium">Ski Touring</div>
+              <div class="collapse-content">
+                <p>
+                  Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit
+                  elit enim sagittis turpis in magna.
+                </p>
+              </div>
+            </div>
+            <div class="collapse collapse-plus border border-spacing-1">
+              <input type="radio" name="my-accordion-3" />
+              <div class="collapse-title text-xl font-medium">Booking</div>
+              <div class="collapse-content">
+                <p>
+                  Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit
+                  elit enim sagittis turpis in magna.
+                </p>
+              </div>
+            </div>
+            <div class="collapse collapse-plus border border-spacing-1">
+              <input type="radio" name="my-accordion-3" />
+              <div class="collapse-title text-xl font-medium">
+                Click to open this one and close others
+              </div>
+              <div class="collapse-content">
+                <p>
+                  Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit
+                  elit enim sagittis turpis in magna.
+                </p>
+              </div>
+            </div>
+            <div class="collapse collapse-plus border border-spacing-1">
+              <input type="radio" name="my-accordion-3" />
+              <div class="collapse-title text-xl font-medium">Pricings</div>
+              <div class="collapse-content">
+                <p>
+                  Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit
+                  elit enim sagittis turpis in magna.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       <!-- get in Touch section -->
       <section>
         <div class="border border-1 border-dashed mt-8 mb-4"></div>
